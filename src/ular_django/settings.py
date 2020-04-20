@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # own
+    'pages',
     'products',
 ]
 
@@ -79,7 +80,7 @@ WSGI_APPLICATION = 'ular_django.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db2.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'db1.sqlite3'),
     }
 }
 
